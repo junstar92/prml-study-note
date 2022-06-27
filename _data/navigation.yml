@@ -1,0 +1,109 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR       Arşivdekiler
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      en      : &EN       PRML
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ko      : &KO       PRML
+      ko-KR   : *KO
+    url: https://junstar92.github.io/prml-study-note/
+    
+  - titles:
+      en      : &EN       Blog
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ko      : &KO       Blog
+      ko-KR   : *KO
+    url: https://junstar92.tistory.com/
+    target: _blank
+
+  - titles:
+      en      : &EN       Github
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ko      : &KO       Github
+      ko-KR   : *KO
+    url: https://github.com/junstar92/prml-study-note
+    target: _blank
+
+docs-en:
+  - title:      Ch 1. Introduction
+    children:
+
+  - title:      Ch 2. Probability Distribution
+    children:
+      - title: 0. Intro
+        url: /2022/06/24/ch2-0.html
+      - title: 1. Binary Variables
+        url: /2022/06/25/ch2-1.html
+      - title: 2. Multinomial Variables
+        url: /2022/06/26/ch2-2.html
+      - title: 3. The Gaussian Distribution
+        url: /2022/06/27/ch2-3.html
+  
+  - title:      Ch 3. Linear Models for Regression
+    children:
+
+  - title:      Ch 4. Linear Models for Classification
+    children:
+
+  - title:      Ch 5. Neural Networks
+    children:
+
+  - title:      Ch 6. Kernel Methods
+    children:
+
+  - title:      Ch 7. Sparse Kernel Machines
+    children:
+
+  - title:      Ch 8. Graphical Models
+    children:
+
+  - title:      Ch 9. Mixture Models and EM
+    children:
+
+  - title:      Ch 10. Approximate Inference
+    children:
+
+  - title:      Ch 11. Sampling Methods
+    children:
+
+  - title:      Ch 12. Continuous Latent Variables
+    children:
+
+  - title:      Ch 13. Sequential Data
+    children:
+
+  - title:      Ch 14. Combining Models
+    children:
