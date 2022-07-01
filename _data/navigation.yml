@@ -64,13 +64,13 @@ docs-en:
   - title:      Ch 2. Probability Distribution
     children:
       - title: 0. Intro
-        url: /2022/06/24/ch2-0.html
+        url: /2022/06/24/ch2-0
       - title: 1. Binary Variables
-        url: /2022/06/25/ch2-1.html
+        url: /2022/06/25/ch2-1
       - title: 2. Multinomial Variables
-        url: /2022/06/26/ch2-2.html
+        url: /2022/06/26/ch2-2
       - title: 3. The Gaussian Distribution
-        url: /2022/06/27/ch2-3.html
+        url: /2022/06/27/ch2-3
   
   - title:      Ch 3. Linear Models for Regression
     children:
